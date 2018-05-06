@@ -1,0 +1,6 @@
+[package]
+name = "counting_sundays"
+version = "0.1.0"
+authors = ["Allen Mao <excursion.allen@gmail.com>"]
+
+[dependencies]
