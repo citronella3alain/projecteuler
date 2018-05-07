@@ -72,7 +72,7 @@ impl Date {
 fn main() {
 	let mut day = Date { month: 1, day: 1, year: 1901, day_of_week: 2};
 	let mut count = 0;
-	println!("DATE \t Day of Week");
+//	println!("DATE \t Day of Week");
 //	while day.month != 12 && day.day != 31 && day.year != 2000{
 	loop{
 		if day.month == 12 && day.day == 31 && day.year == 2000{
@@ -82,8 +82,8 @@ fn main() {
 			count+=1;
 		}
 		day.next_day();
-		println!("{} {} {} \t {}", day.month, day.day, day.year, day.day_of_week);
+		//println!("{} {} {} \t {}", day.month, day.day, day.year, day.day_of_week);
 	}
-	println!("{} Sundays fell on th first of the month during the twentieth century", count);
+	println!("{} Sundays fell on the first of the month during the twentieth century", count);
 	
 }
